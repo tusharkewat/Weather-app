@@ -25,6 +25,29 @@ body.night {
     .weather-icon {
         width: 80px;
     }
+    .col {
+        width: 100%;
+        justify-content:center;
+    }
+    .details {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start; 
+    }
+    .search {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: stretch;
+    }
+
+    .search input {
+        width: 100%;
+    }
+
+    .search button {
+        width: 100%;
+    }
 }
 .card{
     width: 90%;
@@ -39,6 +62,7 @@ body.night {
     box-shadow: 0 0 8px #0ff, 0 0 15px #0ff;
     transition: box-shadow 0.3s ease, 0.3s ease;
     backdrop-filter: blur(10px);
+    box-sizing: border-box;
 }
 .search{
     width: 100%;
@@ -81,7 +105,7 @@ body.night {
     box-shadow: 0 0 15px #0ff, 0 0 15px #0ff, 0 0 20px #0ff;
 }    
 .search button img{
-    width: 25px;
+    width: 15px;
 }
 .weather-icon{
     width: 170px;
@@ -102,15 +126,17 @@ body.night {
     justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
+    gap: 20px;
 }
 .col{
     display: flex;
     align-items: center;
     text-align: left;
+    gap: 10px;
 }
 .col img{
     width: 40px;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .humidity, .wind{
     font-size: 28px;
