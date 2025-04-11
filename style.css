@@ -84,6 +84,7 @@ body.night {
     transition: box-shadow 0.3s ease, 0.3s ease;
     backdrop-filter: blur(10px);
     box-sizing: border-box;
+    margin-top: 10px;
 }
 .search{
     width: 100%;
